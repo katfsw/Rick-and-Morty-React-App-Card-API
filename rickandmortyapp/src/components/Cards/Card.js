@@ -19,14 +19,12 @@ So I built out a basic Card for us to start with. We'll pass in props later.
 const Card = props => {
     return (
         <div className="card-parent">
-            <p className="card-id">ID: </p>
-            <h3 className="card-name">Name: </h3>
-            <img className="card-image" src="" alt=""/>
-            <p className="card-gender">Gender: </p>
-            <p className="card-status">Status: </p>
-            <p className="card-species">Species: </p>
-            <p className="card-origin">Origin: </p>
-            <p className="card-last-location">Last Location: </p>
+            <p className="card-id">ID: {props.character.id} </p>
+            <h3 className="card-name">Name: {props.character.name} </h3>
+            <img className="card-image" src={props.character.image} alt=""/>
+            <p className="card-gender">Gender: {props.character.gender} </p>
+            <p className="card-status">Status: {props.character.status}</p>
+            <p className="card-species">Species: {props.character.species} </p>
         </div>
     )
 }

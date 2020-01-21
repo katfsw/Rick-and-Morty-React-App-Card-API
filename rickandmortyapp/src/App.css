@@ -1,8 +1,29 @@
 .App {
-  text-align: center;
+  display: grid;
+  color: white;
+  background-image: url('./sw-bg.jpg');
+  background-position: cover;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  border: 1em solid greenyellow;
+  grid-gap: 20px;
+  max-width: 1260px;
+  min-height: 500px;
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.card-parent {
+  background-color: rebeccapurple;
+  border: 1em solid rebeccapurple;
+  margin: 2em; 
+}
+.header-bar{
+  background-color: black;
+  font-size: 2rem;
+  width: 100%;
+}
