@@ -1,6 +1,4 @@
 # Rick-and-Morty-React-App-Card-API
 Using the Rick and Morty api to display cards of the Characters
 
-If you run `npm i` it'll download all of the dependancies you need for the project.
-The CSS is already set up here, so is the Axios call.
-All you need to do is finish setting up the properties that we'll display on the Card that's being mapped over in CardGrid.
+I made a quick React App that you guys can clone for practice with Props! Everything's already set up for you, so you can Fork it, Clone it, and open it up. Run npm i to download the dependacies and npm start to run the server. Don't worry about the useEffect or Axios call, I'll explain those during Standup and why I used them. Focus on the properties. Which properties in the Card.js are missing? How do we access them? Do you know where to find the properties that we need? What are properties?
