@@ -1,3 +1,4 @@
+//YOU DO NOT NEED TO CHANGE ANYTHING IN THIS FILE
 import React, { useState, useEffect } from "react";
 import "./App.css";
 //Importing Axios to do a GET to our API
@@ -19,6 +20,10 @@ const App = () => {
   const [character, setCharacter] = useState();
 
   //Using a useEffect hook to fetch the characters from the API
+  //This is the API we'll be using, familiarize yourself with it
+  //> https://rickandmortyapi.com/api/character/
+  // What properties can you already see? What do we need?
+
 
   useEffect(() => {
     const fetchCharacter = async () => {
